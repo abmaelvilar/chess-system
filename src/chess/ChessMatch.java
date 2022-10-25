@@ -29,6 +29,6 @@ public class ChessMatch {
 	
 	private void initialSetup() {
 		placeNewPiece('b',6,new Tower(board,Color.WHITE));
-		placeNewPiece('c',8,new King(board,Color.WHITE));
+		placeNewPiece('c',8,new King(board,Color.BLACK));
 	}
 }
