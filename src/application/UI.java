@@ -83,7 +83,7 @@ public class UI {
 		for(int i=0; i<pieces.length;i++) {
 			System.out.print(ANSI_CYAN+(8-i)+" "+ANSI_RESET);
 			for(int j=0; j<pieces.length;j++) {
-				printPiece(pieces[i][j], possibleMoves[i][jb6]);
+				printPiece(pieces[i][j], possibleMoves[i][j]);
 			}
 			System.out.println();
 		}
