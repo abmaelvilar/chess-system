@@ -114,7 +114,7 @@ public class ChessMatch {
 	private void undoMove(Position source, Position target, Piece captured) {
 		Piece p = board.removePiece(target);
 		board.PlacePiece(p, source);
-		if(capturedPiece != null) {
+		if(captured != null) {
 			board.PlacePiece(captured, target);
 			capturedPieces.remove(captured);
 			piecesOnTheBoard.add(captured);
